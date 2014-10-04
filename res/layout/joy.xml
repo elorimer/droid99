@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/upJoyBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Up" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/leftJoyBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left" />
+
+            <Button
+                android:id="@+id/fireJoyBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire" />
+
+            <Button
+                android:id="@+id/rightJoyBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/downJoyBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Down" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

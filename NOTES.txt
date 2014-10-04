@@ -1,0 +1,16 @@
+Bugs:
+- Video chess
+
+Incomplete:
++ sound (clicks, channel mixing)
+- floppy disk support
+- noise generator
+
+Improvements:
+- UI (buttons, settings page (borders, etc))
+- Load custom ROMs, cartridges, GROMs
+
+Future Features:
+- cassette
+- speech
+- render audio/video to disk

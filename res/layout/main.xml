@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<!--
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/turboChk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Turbo Mode" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Enable turbo mode to run emulator as fast as possible"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/recordReplayChk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enable record/replay" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Enabling record/replay uses storage space and slows the system slightly"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+-->
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/debugChk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enable debug socket" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Listen on port 1234 for debug commands"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Spinner
+        android:id="@+id/cartridgeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pleaseInstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please install OI File Manager to select ROMs or disk images"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/loadROMBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Load ROM File" />
+
+<!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+-->
+        <Button
+            android:id="@+id/ldDsk1Img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Load DSK1 Image" />
+<!-- 
+    </LinearLayout>
+-->
+    <Button
+        android:id="@+id/applyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Apply / Restart" />
+
+</LinearLayout>
